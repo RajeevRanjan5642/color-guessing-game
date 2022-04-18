@@ -4,7 +4,7 @@
 }
 body {
     background-color: black;
-    font-family: sans-serif;
+    font-family: Arial;
 }
 .square {
     background-color: aqua;
@@ -24,7 +24,7 @@ body {
 .heading {
      color: white;
      text-align: center;
-     background-color: chocolate;
+     background-color: hotpink;
      font-weight: normal;
      text-transform: uppercase;
      padding-top: 20px;
@@ -32,13 +32,13 @@ body {
 }
 #stripe {
     background-color: white;
-    height: 30px;
+    height: 40px;
     text-align: center;
    
 }
 .selected {
     color: white;
-    background-color: chocolate;
+    background-color: hotpink;
     
 }
 #colorDisplay {
@@ -49,10 +49,10 @@ button {
     background-color: none;
     text-transform: uppercase;
     height: 100%;
-    font-weight: 700;
-    color: chocolate;
+    font-weight: 750;
+    color: hotpink;
     letter-spacing: 1px;
-    font-size: inherit;
+    font-size: 25px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -60,21 +60,24 @@ button {
 }
 button:hover {
     color: white;
-    background-color: chocolate;
+    background-color: hotpink;
 }
 #messageDisplay {
     display: inline-block;
     width: 20%;
-    font-weight: 700;
+    font-weight: 750;
+    font-size: 25px;
+    color: hotpink;
 }
 .result {
-    background: white;
+    background: black;
     margin-top: 440px;
     text-align: center;
     padding-bottom: 8px;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 #response {
     font-size: 140%;
     font-weight: 550;
+    color: white;
 }
