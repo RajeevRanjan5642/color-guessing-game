@@ -37,7 +37,7 @@ function reset() {
         }
     }
     h1.style.backgroundColor = "hotpink";
-    response.textContent="So! Let's dive straight into the GAME :)."
+    response.textContent="Let's get started :)."
 } 
 resetButton.addEventListener("click",function(){
     colors = generateRandomColors(numSquares);
@@ -51,14 +51,14 @@ resetButton.addEventListener("click",function(){
     this.textContent = "New Color";
     h1.style.backgroundColor = "hotpink";
     count = 0;
-    response.textContent = "So! Let's dive straight into the GAME :)."
+    response.textContent = "Let's get started :)."
 })
 colorDisplay.textContent = pickedColor;
 for(var i = 0; i < squares.length; i++){
     //add initial colors to squares
     squares[i].style.backgroundColor = colors[i];
     }
-    response.textContent = "So! Let's dive straight into the GAME :)."
+    response.textContent = "Let's get started :)."
 for(var i = 0; i < squares.length; i++){
     
     //add click listeners to squares
