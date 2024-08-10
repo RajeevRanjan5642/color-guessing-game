@@ -1,3 +1,5 @@
+![banner](images/banner.png)
+
 # The Great RGB Guessing Game 🔴🟢🔵
 
 ## Overview 🔎
