@@ -17,6 +17,9 @@ body {
     -webkit-transition: background 0.8s;
     -moz-transition: background 0.8s;
 }
+.square : hover{
+    cursor:pointer;
+}
 #container {
     max-width: 600px;
     margin: 25px auto;
