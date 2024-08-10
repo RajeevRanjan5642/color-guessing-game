@@ -30,6 +30,9 @@ The Great RGB Guessing Game is an interactive and educational web application de
 The game is deployed at github-pages.<br>
 🔗 https://rajeevranjan5642.github.io/rgb-guessing-game/
 
+## Preview 👀
+
+
 
 
 
